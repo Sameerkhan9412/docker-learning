@@ -14,6 +14,8 @@ RUN npm install
 
 # copy rest of the code
 COPY . .
+EXPOSE 3000 3001 3002
+# EXPOSE 3000-3005 ->set range
 
 # start the application
 CMD [ "npm","start" ]
