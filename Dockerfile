@@ -17,4 +17,6 @@ COPY . .
 
 # start the application
 CMD [ "npm","start" ]
-# docker build  -t expressapp .
+
+
+# docker build  -t expressapp . --> command to build image
